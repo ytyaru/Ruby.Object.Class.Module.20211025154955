@@ -45,4 +45,7 @@ p e.m
 #p (e.singleton_class.ancestors[0].method :m).call
 #p (e.singleton_class.method :m).call
 #e::m
+e.extend O
 p e.singleton_class.m
+p e.singleton_class.ancestors
+
